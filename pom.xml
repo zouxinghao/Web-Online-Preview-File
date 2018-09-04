@@ -20,7 +20,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>1.8</java.version>
+    
   </properties>
 
   <dependencies>
@@ -72,8 +72,17 @@
             <version>2.5</version>
         </dependency>
         <!-- End: log4j2 -->
-
-        
+		<!-- add Redisson  -->
+		<dependency>
+   			<groupId>org.redisson</groupId>
+   			<artifactId>redisson</artifactId>
+  			<version>3.7.5</version>
+		</dependency> 
+        <dependency>
+  			<groupId>com.google.guava</groupId>
+  			<artifactId>guava</artifactId>
+  			<version>26.0-jre</version>
+		</dependency>
   	
   	<!--
     <dependency>
