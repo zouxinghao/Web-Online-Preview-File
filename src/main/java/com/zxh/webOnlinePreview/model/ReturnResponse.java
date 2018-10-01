@@ -1,4 +1,4 @@
-package model;
+package com.zxh.webOnlinePreview.model;
 
 import java.io.Serializable;
 
